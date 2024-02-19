@@ -11,4 +11,19 @@
 
 .relative-img img {
 width: 100%;
+height: 100%;
+}
+
+.relative-post {
+  display: flex;
+  width: 700px;
+  height: 200px;
+}
+
+
+.relative-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
