@@ -1,0 +1,27 @@
+.container-featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 600px;
+  padding: 10px 40px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.featured-img img {
+  height: 200px;
+  width: 100%;
+}
+
+.featured-title {
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.featured-content {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}

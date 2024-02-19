@@ -1,0 +1,14 @@
+.container-relative {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 600px;
+  padding: 10px 40px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.relative-img img {
+width: 100%;
+}
